@@ -8,6 +8,7 @@ RUN apt-get update \
 
 COPY short_videos/ /var/www/html/
 COPY health.php /var/www/html/health.php
+COPY download.php /var/www/html/download.php
 
 EXPOSE 80
 
