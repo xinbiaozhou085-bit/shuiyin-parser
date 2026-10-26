@@ -1,0 +1,7 @@
+services:
+  parser:
+    build: .
+    container_name: shuiyin-parser
+    ports:
+      - "8080:80"
+    restart: unless-stopped
